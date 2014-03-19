@@ -6,7 +6,7 @@ class Pyramid
 {
     public function generatePyramid(int $steps){
         $buffer = "";
-        for($i = 0; i < $steps; i++){
+        for($i = 0; $i < $steps; $i++){
             for($j = $steps - $i; $j > 0, $j--){
                 $buffer = $buffer." ";
             }
